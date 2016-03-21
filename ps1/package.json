@@ -1,0 +1,31 @@
+{
+  "name": "clis",
+  "bin": {
+    "cli-echo": "./echo.js",
+    "cli-cat": "./cat.js",
+    "cli-touch": "./touch.js",
+    "cli-ls": "./ls.js",
+    "cli-mkdir": "./mkdir.js",
+    "cli-rm": "./rm.js",
+    "cli-ln": "./ln.js",
+    "cli-grep": "./grep.js"
+  },
+  "version": "1.0.0",
+  "description": "A collection of CLI utilities",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/CrabDude/nodejs-clis-starter.git"
+  },
+  "author": "Adam Crabtree",
+  "license": "MIT",
+  "dependencies": {
+    "co": "^4.6.0",
+    "safeguards": "0.0.3",
+    "songbird": "^1.0.2",
+    "trycatch": "^1.5.21"
+  }
+}
